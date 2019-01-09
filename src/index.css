@@ -1,0 +1,83 @@
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: transparent;
+  border: 1px solid transparent;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 48px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 48px;
+  border-radius: 2px;
+}
+
+.square:focus {
+  outline: none;
+  background-color: #3498db;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+
+.icons-attribution, .game-status, .fallen-soldier-block{
+  margin-top: 20px;
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  }
+
+.dark-square{
+background-color: #1abc9c;
+}
+
+.light-square{
+    background-color: #27ae60;
+}
+
+#player-turn-box{
+  width: 32px;
+  margin-bottom: 10px;
+  background-color: white;
+  height: 11px;
+  display: inline-flex;
+  border: 2px solid;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+
+.playerName{
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+background: #1abc9c;
+padding: 5px 50px;
+display: inline-block;
+color: #ecf0f1;
+border-radius: 25px;
+}
